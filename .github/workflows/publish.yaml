@@ -29,9 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          install.packages("pkgdown", type = "binary")
-          install.packages("xaringan", type = "binary")
-          install.packages("xaringanthemer", type = "binary")
+          install.packages("xaringan")
+          install.packages("xaringanthemer")
         shell: Rscript {0}
 
 
