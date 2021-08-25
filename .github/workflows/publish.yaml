@@ -3,6 +3,10 @@ on:
     branches:
       - main
       - master
+  pull_request:
+    branches:
+      - main
+      - master
 
 name: publish Xaringan presentations
 
@@ -58,3 +62,9 @@ jobs:
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           Rscript -e 'rmarkdown::render("index.Rmd")'
           Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd")'
+          
+      - name: Commit and push
+        run: |
+          git add .
+          git commit -m "Render presentation"
+          git push origin github-pages
