@@ -1,0 +1,13 @@
+---
+title: "Presentations"
+author: "Nicolas Roelandt"
+date: "25/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 2021
+[FOSS4G2021 - One arabesque in the small world of OD webmaps](./FOSS4G_2021/presentation.html)

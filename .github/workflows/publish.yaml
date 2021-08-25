@@ -1,0 +1,60 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+
+name: publish Xaringan presentations
+
+jobs:
+  publish:
+    runs-on: ubuntu-18.04
+    env:
+      RSPM: https://packagemanager.rstudio.com/cran/__linux__/bionic/latest
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: github-pages
+
+      - uses: r-lib/actions/setup-r@v1
+        id: install-r
+
+      - uses: r-lib/actions/setup-pandoc@v1
+
+      - name: Install pak and query dependencies
+        run: |
+          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
+          saveRDS(pak::pkg_deps("local::.", dependencies = TRUE), ".github/r-depends.rds")
+        shell: Rscript {0}
+
+      - name: Cache R packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ubuntu-18.04-${{ steps.install-r.outputs.installed-r-version }}-1-${{ hashFiles('.github/r-depends.rds') }}
+          restore-keys: ubuntu-18.04-${{ steps.install-r.outputs.installed-r-version }}-1-
+
+      - name: Install system dependencies
+        if: runner.os == 'Linux'
+        run: |
+          pak::local_system_requirements(execute = TRUE)
+          pak::pkg_system_requirements("xaringan", execute = TRUE)
+          pak::pkg_system_requirements("xaringanthemer", execute = TRUE)
+        shell: Rscript {0}
+
+      - name: Install dependencies
+        run: |
+          pak::local_install_dev_deps(upgrade = TRUE)
+          pak::pkg_install("yihui/xaringan")
+          pak::pkg_install("gadenbuie/xaringanthemer")
+        shell: Rscript {0}
+
+
+      - name: Build and deploy xaringan presentation
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          Rscript -e 'rmarkdown::render("index.Rmd")'
+          Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd")'
