@@ -34,7 +34,7 @@ jobs:
 
       - name: Build xaringan presentation
         run: |
-          Rscript -e 'rmarkdown::render("index.Rmd", output_file = "index.html", output_dir = "public")'
+          Rscript -e 'rmarkdown::render("README.md", output_format = "html_document", output_file = "index.html", output_dir = "public")'
           Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd", output_file = "FOSS4G2021.html", output_dir = "public")'
           
       - name: Deploy
