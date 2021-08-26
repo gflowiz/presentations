@@ -34,13 +34,12 @@ jobs:
 
       - name: Build xaringan presentation
         run: |
-          Rscript -e 'rmarkdown::render("index.Rmd")'
-          Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd")'
+          mkdir public
+          Rscript -e 'rmarkdown::render("index.Rmd", output_file = "public/index.html")'
+          Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd", output_file = "public/FOSS4G2021.html")'
           
-      - name: Commit and push
-        run: |
-          git config --local user.name "$GITHUB_ACTOR"
-          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add .
-          git commit -m "Render presentation"
-          git push origin github-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
