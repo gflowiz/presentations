@@ -1,13 +1,24 @@
 ---
-title: "Presentations"
-author: "Nicolas Roelandt"
-date: "25/08/2021"
+title: "Gflowiz presentations"
+author: "Gflowiz project"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+```
+
+This webpage gather HTML presentations made within the Gflowiz project.
+
+```{r logo-gflowiz, fig.align='center'}
+knitr::include_graphics("FOSS4G_2021/media/logo_gflowiz.jpg")
 ```
 
 ## 2021
-[FOSS4G2021 - One arabesque in the small world of OD webmaps](./FOSS4G_2021/presentation.html)
+
+- [FOSS4G2021 - One arabesque in the small world of OD webmaps](https://gflowiz.github.io/presentations/FOSS4G2021.html)
+
+```{r logo-FOSS4G, fig.align='center'}
+knitr::include_graphics("FOSS4G_2021/media/logo_FOSS4G2021.svg")
+```
