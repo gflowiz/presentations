@@ -109,26 +109,38 @@ class: inverse center middle
 # Why compare ?
 ---
 layout: true
-# Why compare ?
+## Why compare ?
 ---
 
-- Arabesque V1 available, V2 in dev
+- Determine the strengths and weaknesses of arabesque, compared to other applications
 
 --
-- Is it really innovative ?
+
+- What is Arabesque's position regarding similar applications? ?
 
 --
+
+- Effort on rendering and data analysis still innovative ? 
+
+--
+
 - Can we help users to make an informed choice ?
 
 ???
 
 Arabesque is now an usable application, useable by everyone.
-It is not perfect, some features we think important are missing, there is some inconvenient bugs.
-So we are working on a version 2.
+
+Is Arabesque really innovative ? This paper shows what Arabesque's positioning is: we insist on the role of upstream data processing (stats. and geo) and not only on representation aspects, on rendering... because the team work with statistical data.
+
+An effort that has been made on the rendering, the arabesque representation part is very developed: all the dimensions of the flow signs are customizable (their geometries as well as their appearance via the possibility to combine several visual variables...)
 
 But is Arabesque really innovative, does it brings something to the community that are not in similar tools ?
 
+It is not perfect, some features we think important are missing, there is some inconvenient bugs.
+We are working on a version 2.
+
 So we made this comparison and wrote this paper to help user make an informed choice
+
 
 
 ---
@@ -142,9 +154,10 @@ layout: true
 
 ---
 Focus on applications similar to Arabesque :
-  * Web applications
+  * Web applications (online only)
   * FOSS
   * OD data visualisation capabilities
+  * Ability to use own data (external data)
   * comparison on the [same dataset](https://gflowiz.github.io/article_foss4g2021/articles/article_FOSS4G2021.html#the-mobsco-dataset)
 
 --
@@ -152,7 +165,7 @@ Focus on applications similar to Arabesque :
 4 apps:
 - Arabesque
 - Flowmap.blue
-- Kepler.gl
+- Kepler.gl (Flourish)
 - Magrit
 
 ???
@@ -161,7 +174,9 @@ We decided to focus on applications that are similar to Arabesque:
 - Web applications that runs in a web browser (so no desktop application like QGIS and no programmation languages like Python or Javascript)
 - Free and Open Source Software for 2 reasons: Arabesque is FOSS and for reproductibility concerns of the article, we choose to only compare it to software that are accessible
 - The softwares has to be able to visualize Origin-Destination data, a capability often lacking in webmapping tools
+- An important criteria was to be able to use our own data so we can compare the same dataset
 - We used the same subset of the MOBSCO dataset in each application
+- First we decided to compare Arabesque to Arabesque, Flowmap.blue, Kepler.gl, Magrit and Flourish. Flourish is based on the same technologies as Kepler.gl, and does not bring much more than a pleasant interface. We have therefore chosen to discard it.
 
 ---
 layout: false
@@ -172,7 +187,9 @@ layout: false
 * Exploration and geovisualisation of origin-destination flows]
 
 .right-column[
-![](media/image3.png)
+```{r screenshot-arabesque, echo=FALSE, out.width="1000px", eval=TRUE}
+knitr::include_graphics("media/image3.png")
+```
 ]
 
 ???
@@ -189,7 +206,9 @@ Few tools are able to map origin-destination flows and often lacks functionnalit
 ]
 
 .right-column[
-![](media/image5.png)
+```{r screenshot-flowmapblue, echo=FALSE, out.width="600px", eval=TRUE}
+knitr::include_graphics("media/image5.png")
+```
 ]
 
 ---
@@ -202,7 +221,9 @@ Few tools are able to map origin-destination flows and often lacks functionnalit
 ]
 
 .right-column[
-![](media/image4.jpg)
+```{r screenshot-keplergl, echo=FALSE, out.width="1000px", eval=TRUE}
+knitr::include_graphics("media/image4.jpg")
+```
 ]
 ---
 ## [Magrit](http://magrit.cnrs.fr/)
@@ -212,7 +233,9 @@ Few tools are able to map origin-destination flows and often lacks functionnalit
 * Thematic cartography software]
 
 .right-column[
-![](media/image6.jpg)
+```{r screenshot-magrit, echo=FALSE, out.width="1000px", eval=TRUE}
+knitr::include_graphics("media/image6.jpg")
+```
 ]
  
 ---
