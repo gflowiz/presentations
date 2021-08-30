@@ -43,7 +43,7 @@ class: inverse center middle title-slide
 
 # ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
 
-## Nicolas Roelandt
+#### <span style='color:#ef7d00;'>Nicolas Roelandt</span>, Françoise Bahoken, Grégoire Le Campion, Laurent Jégou, Marion Maisonobe, Boris Mericskay, Etienne Côme
 
 .bottom[
 ### <span style='color:#ef7d00;'>_FOSS4G 2021 - remote_</span>
