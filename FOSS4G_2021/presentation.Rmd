@@ -41,7 +41,7 @@ style_duo_accent(
 
 class: inverse center middle title-slide
 
-# ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
+## ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
 
 #### <span style='color:#ef7d00;'>Nicolas Roelandt</span>, Françoise Bahoken, Grégoire Le Campion, Laurent Jégou, Marion Maisonobe, Boris Mericskay, Etienne Côme
 
@@ -84,7 +84,7 @@ knitr::include_graphics("media/logo_gflowiz.jpg")
 - Review of existing tools (2016 -)
 
 --
-- Survey within 200 users
+- Survey of 200 users
 
 --
 - Development of Arabesque (2018 -)
@@ -225,7 +225,7 @@ layout: true
 # Data model
 ---
 
-* data format may varie
+* data format may vary
 
 --
 * data stockage may varie : wide/large matrix format
