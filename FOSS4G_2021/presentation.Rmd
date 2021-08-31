@@ -312,7 +312,12 @@ layout: true
 ```{r app-mosaic, echo=FALSE, out.width="1200px", eval=TRUE}
 knitr::include_graphics("media/app_mosaic.jpg")
 ```
-]  
+]
+
+???
+All applications can be used to represent OD data.
+However Kepler.gl and Flowmap.blue offers limited design options (3D arcs).
+
 ---
 
 .pull-left[
@@ -329,18 +334,28 @@ knitr::include_graphics("media/arabesque_240p.gif")
 ```
 ]
 
+???
+Magrit is more focused on the production of static maps and does not allow navigation and exploration
+
+kepler.gl and Flowmap.blue provide some exploration functionalities like zooming on a region, popups on hovering or brushing.
+Arabesque does not provide exploration functionnalities like po-ups windows or brushing, but provide tools for data analysis and exploration. 
+
 ---
 
-* Data Analysis
+.pull-left[
+
+* Data Analysis / Exploration
   * Arabesque only
+]
+
+.pull-right[
+```{r data-exploration-arabesque, echo=FALSE, out.width="1200px", eval=TRUE}
+knitr::include_graphics("media/arabesque_data_exploration.gif")
+```
+]
 
 ???
-
-All applications can be used to represent OD data.
-However Kepler.gl and Flowmap.blue offers limited design options (3D arcs).
-kepler.gl and Flowmap.blue provide some exploration functionalities like zooming on a region, popups on hovering or brushing.
-Magrit, on the other hand, is more focused on the production of static maps and does not allow navigation and exploration
-It data analysis  capabilities are limited to a histogramm of the dataset without filtering.
+Magrit data analysis capabilities are limited to a histogramm of the dataset without filtering.
 
 Only Arabesque offers real data analysis capabilities with custom filtering options and new indicators computation.
 
@@ -354,14 +369,11 @@ layout: true
 # Public/Purpose
 ---
 
-
 * Data exploration and visualisation
     * general public
     * data journalist
     * web publishing
     * **Kepler.gl** / **Flowmap.blue**
-
-
 
 ---
 
@@ -378,12 +390,10 @@ Each tool meet specific needs according to the profiles (technical skills, mappi
 
 We think that for data exploration and visualisation, by the general public or data journalist, kepler.gl or Flowmap.blue are best fitted. They do not require the user to have significant knowledge of cartography and are oriented towards web publishing, allowing quick publication and interactive reading.
 
-
 On the other hand, the representation possibilities are limited to a colored 3D arc.
 
 For the creation of static thematic maps or statistical exploration of data, we recommend using Magrit or Arabesque.
 The representation possibilities are more important, although limited to two dimensions. The result will be more suitable for teaching or publishing scientific articles.
-
 
 ---
 layout: false
