@@ -263,10 +263,10 @@ layout: true
 # Data model
 ---
 
-* data format may vary
+* data format : mostly CSV files
 
 --
-* data stockage may varie : wide/large matrix format
+* data stockage : wide/large matrix format more frequent
 
 --
 * nodes coordinates in WGS84 (lat/lon)
