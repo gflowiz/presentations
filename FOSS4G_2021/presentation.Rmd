@@ -299,13 +299,20 @@ layout: true
 # Usage
 ---
 
+.pull-left[
 * Representation
 
   * Arabesque
   * Kepler.gl
   * Flowmap.blue
   * Magrit
-  
+]
+
+.pull-right[
+```{r app-mosaic, echo=FALSE, out.width="1200px", eval=TRUE}
+knitr::include_graphics("media/app_mosaic.jpg")
+```
+]  
 ---
 
 .pull-left[
