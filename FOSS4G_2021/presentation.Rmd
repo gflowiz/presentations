@@ -263,16 +263,16 @@ layout: true
 # Data model
 ---
 
-* data format : mostly CSV files
+* Data format : mostly CSV files
 
 --
-* data stockage : wide/large matrix format more frequent
+* Data stockage : wide/large matrix format more frequent
 
 --
-* nodes coordinates in WGS84 (lat/lon)
+* Nodes coordinates in WGS84 (lat/lon)
 
 --
-* no cleaning tools provided
+* No cleaning tools provided
 
 ???
 
