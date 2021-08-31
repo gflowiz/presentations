@@ -59,35 +59,51 @@ knitr::include_graphics("media/logos.svg")
 
 # Introduction
 
---
-
 .pull-left[
 - Part of the Gflowiz project
 ]
 
 .pull-right[
-```{r logo-gflowiz, echo=FALSE, out.width="60%", eval=TRUE}
+```{r logo-gflowiz, echo=FALSE, out.width="40%", eval=TRUE}
 knitr::include_graphics("media/logo_gflowiz.jpg")
 ```
 ]
 
 --
+
+.pull-left[
 - Focus on **web applications**
+]
 
 --
+.pull-left[
 - Thematic *geovisualization* and cartographic purposes
+]
 
 --
+.pull-left[
 - **Flows** and spatial networks
+]
 
 --
+.pull-left[
 - Review of existing tools (2016 -)
+]
 
 --
+.pull-left[
 - Survey of 200 users
+]
 
 --
+.pull-left[
 - Development of Arabesque (2018 -)
+]
+
+
+
+
+
 
 
 ???
@@ -116,7 +132,7 @@ layout: true
 
 --
 
-- What is Arabesque's position regarding similar applications? ?
+- What is Arabesque's position regarding similar applications ?
 
 --
 
@@ -155,10 +171,9 @@ layout: true
 ---
 Focus on applications similar to Arabesque :
   * Web applications (online only)
-  * FOSS
-  * OD data visualisation capabilities
-  * Ability to use own data (external data)
-  * comparison on the [same dataset](https://gflowiz.github.io/article_foss4g2021/articles/article_FOSS4G2021.html#the-mobsco-dataset)
+  * Free and Open Source Software
+  * Origin Destination data visualisation capabilities
+  * Ability to use own data ([external dataset](https://gflowiz.github.io/article_foss4g2021/articles/article_FOSS4G2021.html#the-mobsco-dataset))
 
 --
 
@@ -291,15 +306,23 @@ layout: true
   * Flowmap.blue
   * Magrit
   
---
+---
 
+.pull-left[
 * Exploration
 
   * Arabesque
   * Kepler.gl
   * Flowmap.blue
+]
 
---
+.pull-right[
+```{r demo-arabesque, echo=FALSE, out.width="1200px", eval=TRUE}
+knitr::include_graphics("media/arabesque_240p.gif")
+```
+]
+
+---
 
 * Data Analysis
   * Arabesque only
@@ -324,12 +347,17 @@ layout: true
 # Public/Purpose
 ---
 
+
 * Data exploration and visualisation
     * general public
     * data journalist
     * web publishing
     * **Kepler.gl** / **Flowmap.blue**
-    
+
+
+
+---
+
 * Academia and teaching
     * thematic maps production
     * statistical analysis capabilities
