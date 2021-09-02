@@ -35,7 +35,8 @@ style_duo_accent(
   primary_color = "#2f2a85",
   secondary_color = "#2f2a85",
   inverse_header_color = "#ef7d00",
-  inverse_link_color  = "#ef7d00"
+  inverse_link_color  = "#ef7d00",
+  text_font_size = "1.4rem"
 )
 ```
 
