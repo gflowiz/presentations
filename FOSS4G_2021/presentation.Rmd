@@ -109,7 +109,7 @@ knitr::include_graphics("media/logo_gflowiz.jpg")
 
 ???
 
-The paper focuses on a specific part of geoweb, it relates to flows and spatial networks for thematic geovisualization and cartographic purposes.
+The paper, as the Gflowiz project, focuses on a specific part of geoweb, it relates to flows and spatial networks for thematic geovisualization and cartographic purposes.
 
 Arabesque, after an online survey of people interested in geovisualizing this type of data and a review of existing web pages and applications.
 
@@ -117,7 +117,7 @@ Particularities of flow mapping : pay close attention to the preparation and pro
 
 arabesque positioning: combining OD data visualization and cartography (not also mapping). 
 
-3 key points: dealing with numerical data, geographical data, display.
+3 key points: dealing with numerical data, geographical data, display/cartography.
 
 
 ---
@@ -192,7 +192,7 @@ We decided to focus on applications that are similar to Arabesque:
 - The softwares has to be able to visualize Origin-Destination data, a capability often lacking in webmapping tools
 - An important criteria was to be able to use our own data so we can compare the same dataset
 - We used the same subset of the MOBSCO dataset in each application
-- First we decided to compare Arabesque to Arabesque, Flowmap.blue, Kepler.gl, Magrit and Flourish. Flourish is based on the same technologies as Kepler.gl, and does not bring much more than a pleasant interface. We have therefore chosen to discard it.
+- First we decided to compare Arabesque to Flowmap.blue, Kepler.gl, Magrit and Flourish. Flourish is based on the same technologies as Kepler.gl, and does not bring much more than a pleasant interface. We have therefore chosen to discard it.
 
 ---
 layout: false
@@ -209,8 +209,11 @@ knitr::include_graphics("media/image3.png")
 ]
 
 ???
-Arabesque was developped in 2019 inside the Gflowiz project with the goal to provide a tool dedicated to Exploration and geovisualisation of origin-destination flows and spatial networks.
+Arabesque was developped in 2019 inside the Gflowiz project with the goal to provide a tool dedicated to 
+exploration and geovisualisation of origin-destination flows and spatial networks.
 Few tools are able to map origin-destination flows and often lacks functionnalities like 
+- advanced cartographic and styling tools (you can't change the shape of the link for example)
+- data analysis oftel has to be before hand and can't be done within the app
 
 ---
 
@@ -453,15 +456,21 @@ Note that for Flowmap.blue you will have to save the CSV file in a google sheet 
 ---
 
 ## Export
-* online hosting (Kepler.gl, Flowmap.blue)
-* image export (Arabesque, Magrit)
+* Online hosting (Kepler.gl, Flowmap.blue)
+* Image export (Arabesque, Magrit)
 * Data and project parameters (Arabesque, Kepler.gl, Magrit)
+  * allows project reuse
+  * allows the reproducibility of treatments
+  * important in the context of Open Science
 
 ???
 Kepler.gl and Flowmap.blue propose to the user to host online their production, which is a real asset to diffuse dynamic cartography online.
 
 Arabesque and Magrit are more oriented towards editing cartography and only offer image output formats.
 Arabesque, Kepler.gl and Magrit allow you to export the data and parameters of a project so that a user can share their analysis.
+
+Those capacities to export and load saved project is important for the user but it is also important for collaboration.
+It allows the reproductibilty of the treatments used to produce the map and therefor are important for Open Science
 
 ---
 
