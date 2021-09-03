@@ -42,15 +42,15 @@ style_duo_accent(
 
 class: inverse center middle title-slide
 
-## ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
+### ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
 
-#### <span style='color:#ef7d00;'>Nicolas Roelandt</span>, Françoise Bahoken, Grégoire Le Campion, Laurent Jégou, Marion Maisonobe, Boris Mericskay, Etienne Côme
+##### <span style='color:#ef7d00;'>Nicolas Roelandt</span>, Françoise Bahoken, Grégoire Le Campion, Laurent Jégou, Marion Maisonobe, Boris Mericskay, Etienne Côme
 
 .bottom[
-### <span style='color:#ef7d00;'>_FOSS4G 2021 - remote_</span>
+##### <span style='color:#ef7d00;'>_FOSS4G 2021 - remote_</span>
 
 ```{r logos-institution, echo=FALSE, out.width="100%", eval=TRUE}
-knitr::include_graphics("media/logos.svg")
+knitr::include_graphics("media/logos2.svg")
 ```
 ]
 
