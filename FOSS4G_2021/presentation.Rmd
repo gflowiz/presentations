@@ -323,9 +323,11 @@ However Kepler.gl and Flowmap.blue offers limited design options (3D arcs).
 .pull-left[
 * Exploration
 
-  * Arabesque
+  * Arabesque*
   * Kepler.gl
-  * Flowmap.blue
+  * Flowmap.blue*
+  
+###### * multiscalar visualization
 ]
 
 .pull-right[
@@ -338,7 +340,10 @@ knitr::include_graphics("media/arabesque_240p.gif")
 Magrit is more focused on the production of static maps and does not allow navigation and exploration
 
 kepler.gl and Flowmap.blue provide some exploration functionalities like zooming on a region, popups on hovering or brushing.
-Arabesque does not provide exploration functionnalities like po-ups windows or brushing, but provide tools for data analysis and exploration. 
+Arabesque does not provide exploration functionnalities like po-ups windows or brushing, but provide tools for data analysis and exploration.
+
+Note that Arabesque and Flowmap.blue offer multiscalar ("scalable") visualization capabilities.
+There is a resizing/adaptation of the figures with respect to the level of observation: it's not a zoom/dezoom (knowing also that zooming is not changing the scale)
 
 ---
 
