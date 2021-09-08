@@ -304,10 +304,12 @@ layout: true
 .pull-left[
 * Representation
 
-  * Arabesque
-  * Kepler.gl
+  * Arabesque*
   * Flowmap.blue
-  * Magrit
+  * Kepler.gl
+  * Magrit*
+
+###### * advanced graphics
 ]
 
 .pull-right[
