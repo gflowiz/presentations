@@ -354,7 +354,8 @@ There is a resizing/adaptation of the figures with respect to the level of obser
 .pull-left[
 
 * Data Analysis / Exploration
-  * Arabesque only
+  * Arabesque
+  * Kepler.gl
 ]
 
 .pull-right[
@@ -366,7 +367,10 @@ knitr::include_graphics("media/arabesque_data_exploration.gif")
 ???
 Magrit data analysis capabilities are limited to a histogramm of the dataset without filtering.
 
-Only Arabesque offers real data analysis capabilities with custom filtering options and new indicators computation.
+
+Arabesque and Kepler.gl offer data analysis capabilities with custom filtering options.
+
+Arabesque also compute new indicators (inDegree, OutDegree, balance).
 
 ---
 layout: false
