@@ -197,7 +197,7 @@ layout: false
 ## Arabesque
 
 .left-column[
-* Developped in 2019, part of the [Gflowiz project](https://geoflowiz.hypotheses.org/)
+* Launched in 2019, part of the [Gflowiz project](https://geoflowiz.hypotheses.org/)
 * Exploration and geovisualisation of origin-destination flows]
 
 .right-column[
