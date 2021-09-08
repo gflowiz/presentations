@@ -54,6 +54,8 @@ knitr::include_graphics("media/logos2.svg")
 ```
 ]
 
+###### [gflowiz.github.io/presentations/FOSS4G2021.html](https://gflowiz.github.io/presentations/FOSS4G2021.html)
+
 ###### Press <span style='color:#ef7d00;'>P</span> to access notes
 
 ---
