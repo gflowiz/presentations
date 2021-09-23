@@ -456,7 +456,7 @@ layout: true
 * Arabesque and Magrit
     * D3
     * smaller datasets (< 10 000 objects)
-    * more graphic options
+    * more styling options
 
 ???
 
