@@ -494,7 +494,7 @@ Note that for Flowmap.blue you will have to save the CSV file in a google sheet 
 * Image export (Arabesque, Magrit)
 * Data and project parameters (Arabesque, Kepler.gl, Magrit)
   * allows project reuse
-  * allows the reproducibility of treatments
+  * allows the processing reproducibility
   * important in the context of Open Science
 
 ???
