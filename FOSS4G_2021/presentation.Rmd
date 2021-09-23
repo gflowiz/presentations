@@ -300,6 +300,23 @@ Your data needs to be prepared ahead using other tools.
 Arabesque provide information on rejected data.
 
 ---
+
+## [Mobsco](https://www.insee.fr/fr/statistiques/4509360) dataset
+
+- French student mobilities in 2017
+- Elementary school to grad school
+- 4,730,521 records
+- 27090 records aggregated at *département* level
+
+
+???
+The MOBSCO is a dataset produced by the national statistics bureau [INSEE](https://www.insee.fr/en/accueil).
+It compile more than 4 millions records of student mobilities from home to school, from elementary level to grad school.
+
+This is too much for some applications so we aggregated it to the French *département* admnistrative level
+
+
+---
 layout: false
 class: inverse center middle
 # Usage
