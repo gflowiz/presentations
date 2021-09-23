@@ -276,7 +276,7 @@ layout: true
 * Data format : mostly CSV files
 
 --
-* Data stockage : wide/large matrix format more frequent
+* Data storage : wide/large matrix format more frequent
 
 --
 * Nodes coordinates in WGS84 (lat/lon)
