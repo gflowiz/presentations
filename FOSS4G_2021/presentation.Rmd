@@ -40,6 +40,14 @@ style_duo_accent(
 )
 ```
 
+```{r xaringan-webcam, include = FALSE}
+xaringanExtra::use_webcam()
+```
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
 class: inverse center middle title-slide
 
 ### ONE ARABESQUE IN THE SMALL WORLD OF OD WEBMAPS
@@ -513,7 +521,7 @@ Article pre-print version : [gflowiz.github.io/article_foss4g2021](https://gflow
 .center[
 
 ```{r logos-institution-conclusion, echo=FALSE, out.width="100%", eval=TRUE}
-knitr::include_graphics("media/logos.svg")
+knitr::include_graphics("media/logos2.svg")
 ```
 ]
 
