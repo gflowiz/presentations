@@ -29,6 +29,7 @@ jobs:
         run: |
           install.packages("xaringan")
           install.packages("xaringanthemer")
+          install.packages("xaringanExtra")
         shell: Rscript {0}
 
 
