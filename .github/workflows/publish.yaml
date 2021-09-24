@@ -29,7 +29,8 @@ jobs:
         run: |
           install.packages("xaringan")
           install.packages("xaringanthemer")
-          install.packages("xaringanExtra")
+          install.packages("devtools")
+          devtools::install_github("gadenbuie/xaringanExtra")
         shell: Rscript {0}
 
 
