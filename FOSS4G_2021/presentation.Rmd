@@ -179,9 +179,9 @@ layout: true
 Focus on applications similar to Arabesque :
   * Web applications (online only)
   * Free and Open Source Software
-  * Origin Destination data visualisation capabilities
-  * Ability to use own data ([external dataset](https://gflowiz.github.io/article_foss4g2021/articles/article_FOSS4G2021.html#the-mobsco-dataset))
-
+  * Origin-Destination data visualisation capabilities
+  * Ability to use user's own data
+  
 --
 
 4 apps:
@@ -415,7 +415,7 @@ layout: true
 
 ---
 
-* Academia and teaching
+* Academia : research and teaching
     * thematic maps production
     * statistical analysis capabilities
     * **Arabesque** / **Magrit**
