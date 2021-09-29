@@ -226,8 +226,9 @@ Few tools are able to map origin-destination flows and often lacks functionnalit
 ## [Flowmap.blue](https://flowmap.blue/)
 
 .left-column[
-* Created in 2019
+* Created in 2019 by [Ilya Boyandin](https://ilya.boyandin.me/)
 * Explore and create flow maps
+* [flowmap.blue](https://flowmap.blue/)
 ]
 
 .right-column[
@@ -243,6 +244,7 @@ knitr::include_graphics("media/image5.png")
 .left-column[
 * Launched in 2018
 * Geovisualisation tool designed for complex datasets
+* [Kepler.gl](https://kepler.gl/)
 ]
 
 .right-column[
@@ -256,6 +258,7 @@ knitr::include_graphics("media/image4.jpg")
 .left-column[
 * 2017 by the RIATE team
 * Thematic cartography software]
+* [Magrit](http://magrit.cnrs.fr/)
 
 .right-column[
 ```{r screenshot-magrit, echo=FALSE, out.width="1000px", eval=TRUE}
