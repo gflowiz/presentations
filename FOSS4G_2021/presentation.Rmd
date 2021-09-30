@@ -244,7 +244,7 @@ knitr::include_graphics("media/image5.png")
 .left-column[
 * Launched in 2018
 * Geovisualisation tool designed for complex datasets
-* [Kepler.gl](https://kepler.gl/)
+* [kepler.gl](https://kepler.gl/)
 ]
 
 .right-column[
@@ -257,8 +257,10 @@ knitr::include_graphics("media/image4.jpg")
 
 .left-column[
 * 2017 by the RIATE team
-* Thematic cartography software]
-* [Magrit](http://magrit.cnrs.fr/)
+* Thematic cartography software
+* [magrit.cnrs.fr/](http://magrit.cnrs.fr/)
+]
+
 
 .right-column[
 ```{r screenshot-magrit, echo=FALSE, out.width="1000px", eval=TRUE}
