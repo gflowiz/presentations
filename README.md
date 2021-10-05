@@ -6,7 +6,7 @@ output: html_document
 
 This webpage gather presentations made within the Gflowiz project.
 
-![](FOSS4G_2021/media/logo_gflowiz.jpg)
+![](2021/2021_FOSS4G/media/logo_gflowiz.jpg)
 
 
 ## 2021
