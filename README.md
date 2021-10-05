@@ -15,7 +15,11 @@ This webpage gather HTML presentations made within the Gflowiz project.
 
 <img src="https://raw.githubusercontent.com/gflowiz/presentations/main/FOSS4G_2021/media/logo_FOSS4G2021.svg" width=50% height=50%>
 
-## How to add a presentation
+## 2019
+
+- [SAGEO2019 - Arabesque : Application d’exploration et de géovisualisation de données de flux et de réseaux](https://gflowiz.github.io/presentations/2019_SAGEO_ARABESQUE_presentation.pdf)
+
+# How to add a presentation
 
 1. Create a new folder with the presentation files
 2. Modify `.github/workflows/publish.yaml` 
