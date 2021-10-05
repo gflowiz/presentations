@@ -11,6 +11,14 @@ This webpage gather presentations made within the Gflowiz project.
 
 ## 2021
 
+### Meetup Toulouse DataViz
+
+- [PDF - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://gflowiz.github.io/presentations/Meetup_arabesque_ToulouseDV.pdf)
+
+- [Video - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://www.youtube.com/watch?v=09bkdNSUNBw)
+
+### FOSS4G2021
+
 - [FOSS4G2021 - One arabesque in the small world of OD webmaps](https://gflowiz.github.io/presentations/FOSS4G2021.html)
 
 <img src="https://raw.githubusercontent.com/gflowiz/presentations/main/FOSS4G_2021/media/logo_FOSS4G2021.svg" width=50% height=50%>
