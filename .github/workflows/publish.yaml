@@ -32,11 +32,14 @@ jobs:
           install.packages("devtools")
           devtools::install_github("gadenbuie/xaringanExtra")
         shell: Rscript {0}
+        
+      - name: Build index page
+        run: |
+          Rscript -e 'rmarkdown::render("README.md", output_format = "html_document", output_file = "index.html", output_dir = "public")'
 
 
       - name: Build xaringan presentation
         run: |
-          Rscript -e 'rmarkdown::render("README.md", output_format = "html_document", output_file = "index.html", output_dir = "public")'
           Rscript -e 'rmarkdown::render("2021/2021_FOSS4G/presentation.Rmd", output_file = "FOSS4G2021.html", output_dir = "public")'
 
       - name: Copy non-xaringan presentations
