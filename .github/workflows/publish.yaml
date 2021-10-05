@@ -38,6 +38,10 @@ jobs:
         run: |
           Rscript -e 'rmarkdown::render("README.md", output_format = "html_document", output_file = "index.html", output_dir = "public")'
           Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd", output_file = "FOSS4G2021.html", output_dir = "public")'
+
+      - name: Copy non-xaringan presentations
+        run: |
+          cp 2019_SAGEO/2019_SAGEO_ARABESQUE_presentation.pdf public/2019_SAGEO_ARABESQUE_presentation.pdf
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
