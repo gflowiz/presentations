@@ -37,12 +37,12 @@ jobs:
       - name: Build xaringan presentation
         run: |
           Rscript -e 'rmarkdown::render("README.md", output_format = "html_document", output_file = "index.html", output_dir = "public")'
-          Rscript -e 'rmarkdown::render("FOSS4G_2021/presentation.Rmd", output_file = "FOSS4G2021.html", output_dir = "public")'
+          Rscript -e 'rmarkdown::render("2021/2021_FOSS4G/presentation.Rmd", output_file = "FOSS4G2021.html", output_dir = "public")'
 
       - name: Copy non-xaringan presentations
         run: |
-          cp 2019_SAGEO/2019_SAGEO_ARABESQUE_presentation.pdf public/2019_SAGEO_ARABESQUE_presentation.pdf
-          cp 2020_FOSDEM/20200202_geospatial_Arabesque_ROELANDT_FOSDEM2020.pdf public/20200202_geospatial_Arabesque_ROELANDT_FOSDEM2020.pdf
+          cp 2019/2019_SAGEO/2019_SAGEO_ARABESQUE_presentation.pdf public/2019_SAGEO_ARABESQUE_presentation.pdf
+          cp 2020/2020_FOSDEM/20200202_geospatial_Arabesque_ROELANDT_FOSDEM2020.pdf public/20200202_geospatial_Arabesque_ROELANDT_FOSDEM2020.pdf
           cp 2021/2021_meetup_Toulouse_DV/Meetup_arabesque_ToulouseDV.pdf public/Meetup_arabesque_ToulouseDV.pdf
           
       - name: Deploy
