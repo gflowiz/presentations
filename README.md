@@ -11,7 +11,7 @@ This webpage gather presentations made within the Gflowiz project.
 
 ## 2022
 
-### Séminaire Univ. Gustave Eiffel/Département AME-Splott 
+### Univ. Gustave Eiffel Seminar 
 - [PDF - Arabesque, un outil pour géovisualiser les matrices de flux origine-destination](https://splott.univ-gustave-eiffel.fr/fileadmin/redaction/SPLOTT/archives_seminaire_SPLOTT/Arabesque_splott_10janv2022.pdf)
 
 
@@ -55,7 +55,27 @@ This webpage gather presentations made within the Gflowiz project.
 
 ## 2019
 
-- [SAGEO2019 - Arabesque : Application d’exploration et de géovisualisation de données de flux et de réseaux](https://gflowiz.github.io/presentations/2019_SAGEO_ARABESQUE_presentation.pdf)
+### DataSHS
+
+- [GIT -  Introduction à l’exploration et la représentation de flux à l’échelle mondiale : l’exemple du commerce international et des collaborations scientifiques entre villes)(https://framagit.org/MarionMai/data-shs)
+
+### SAGEO
+
+- [Arabesque : Application d’exploration et de géovisualisation de données de flux et de réseaux](https://gflowiz.github.io/presentations/2019_SAGEO_ARABESQUE_presentation.pdf)
+
+### Univ. Gustave Eiffel - Seminar
+
+- [PDF- Dashboard for exploring web applications of geographic flow and movements](https://analytics.huma-num.fr/Gregoire.LeCampion/dashboard_gflowiz/#section-dashboard)
+
+## 2018
+
+### Univ. Gustave Eiffel Workshop : Flux et réseaux dans le geoweb...
+
+- [What about flows, networks and movements in the geoweb ?](http://geoflowiz.hypotheses.org/files/2019/01/Present_gflowiz_2018_web.pdf).
+
+### GEOBS Journées d'études : Repenser les cartes à l'heure du web
+
+- [PDF - Qu’en est-il des flux dans le geoweb ?](https://cartesduweb.sciencesconf.org/)
 
 # How to add a presentation
 
