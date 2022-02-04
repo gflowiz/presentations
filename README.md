@@ -31,7 +31,11 @@ This webpage gather presentations made within the Gflowiz project.
 
 - [PDF - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://gflowiz.github.io/presentations/Meetup_arabesque_ToulouseDV.pdf)
 
-- [Video - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://www.youtube.com/watch?v=09bkdNSUNBw)
+- [VIDEO - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://www.youtube.com/watch?v=09bkdNSUNBw)
+
+### CARTOMOB
+
+- [VIDEO - Arabesque, une application d’exploration et de visualisation thématique de flux dans le géoweb](https://prismes.univ-toulouse.fr/player.php?code=z5H1ERV0&width=100%&height=100%)
 
 ### FOSS4G'2021
 
