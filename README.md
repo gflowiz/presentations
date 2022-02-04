@@ -9,7 +9,23 @@ This webpage gather presentations made within the Gflowiz project.
 ![](2021/2021_FOSS4G/media/logo_gflowiz.jpg)
 
 
+## 2022
+
+### Séminaire Univ. Gustave Eiffel/Département AME-Splott 
+- [PDF - Arabesque, un outil pour géovisualiser les matrices de flux origine-destination](https://splott.univ-gustave-eiffel.fr/fileadmin/redaction/SPLOTT/archives_seminaire_SPLOTT/Arabesque_splott_10janv2022.pdf)
+
+
 ## 2021
+
+### Tuto-MateSHS 
+
+- [Tuto-37 - Arabesque](https://mate-shs.cnrs.fr/actions/tutomate/tuto37-arabesque-bahoken-come-jegou/)
+
+- [VIDEO - Arabesque, une application web dédiée aux données de flux et de réseaux spatiaux](https://youtu.be/7iYaEcm2ahk)
+
+- [PDF - Arabesque, une application web dédiée aux données de flux et de réseaux spatiaux](https://mate-shs.cnrs.fr/wp-content/uploads/2021/10/Tuto37_Arabesque_Bahoken-Come-Jegou.pdf)
+
+- [ZIP - Jeux de données](https://mate-shs.cnrs.fr/wp-content/uploads/2021/10/Tuto37_Arabesque_jeux_de_donnees.zip)
 
 ### Meetup Toulouse DataViz
 
@@ -17,7 +33,7 @@ This webpage gather presentations made within the Gflowiz project.
 
 - [Video - Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web](https://www.youtube.com/watch?v=09bkdNSUNBw)
 
-### FOSS4G2021
+### FOSS4G'2021
 
 - [FOSS4G2021 - One arabesque in the small world of OD webmaps](https://gflowiz.github.io/presentations/FOSS4G2021.html)
 
